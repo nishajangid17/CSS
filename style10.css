@@ -1,0 +1,39 @@
+div{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 50%;
+    top: 100px;
+    left:100px;
+    animation-name: animation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse ;
+}
+
+ @keyframes animation{
+    from{ background-color: green;}
+    to{ background-color: brown;}
+} 
+
+
+
+
+.loader{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 50px solid yellow;
+    border-left:  50px solid  red;
+    background-color: white;
+    animation:spinAnimation 3s ease-in 0s infinite normal;
+
+}
+
+@keyframes spinAnimation{
+    from{transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}

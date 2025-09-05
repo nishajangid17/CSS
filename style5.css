@@ -1,0 +1,49 @@
+
+*{
+    margine: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    background-color: azure;
+    min-height: 100vh;
+    border: 10px solid black;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+ 
+h1{
+    font-size: large;
+    font-weight: 200;
+    color: brown;
+    align-items: flex-end;
+}
+
+h4{
+    align-items: end;
+}
+
+h2{
+    color: blueviolet;
+    text-align: left;
+}
+.section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container,
+img {
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    bottom: 505px;
+}
